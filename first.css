@@ -1,0 +1,110 @@
+*{
+    color: aliceblue;
+    margin: 0;
+    padding: 0;
+}
+body  {/*rgb(102, 4, 148)*/
+    background-color: rgb(58, 8, 138) ;
+    display: flex;
+}
+.profile    {
+    display: flex;
+    align-items: center;
+    gap: 50px;
+}
+
+.img-box {
+    width: 80px;
+    height: 80px;
+    border: 2px rgb(0, 26, 255) solid;
+    border-radius: 190px;
+    
+}
+.img-box img{
+    
+    width: 80px;
+    height: 80px;
+    border-radius: 190px;
+}
+
+.menu   {
+    background-color:  rgb(45, 0, 72);
+    width: 260px;
+    height: 100vh;
+    padding: 20px;
+    position: relative;
+}
+ul{
+    list-style: none;
+    position: relative;
+    height: 95%;
+
+    
+}
+ul li a{
+    background-color: rgb(58, 12, 163);
+    text-decoration: none;
+    padding: 20px;
+    margin: 10px;
+    align-items: center;
+    display: flex;
+    gap: 30px;
+    border-radius: 19px;
+
+}
+ul li a:hover {
+    background-color: rgb(255, 0, 255) ;
+    gap: 60px;
+    transition: .6s;
+}
+
+
+.logout{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+
+}
+.logout a{
+    background-color: red;
+}
+
+
+
+.content {
+    background-color: rgba(0, 0, 0, 0.432);
+    width: 100%;
+    margin: 10px;
+
+}
+
+.bro{
+    display: flex;
+    align-items: center;
+    background-color: rgba(0, 204, 255, 0.39);
+    justify-content: space-between;
+    padding: 10px;
+    border-radius: 8px;
+}
+
+.items {
+    display:flex;
+    align-items: center ;
+    justify-content: space-between;
+    gap: 10px;
+    flex-wrap: wrap;
+    
+}
+
+.box {
+    background-color: rgba(173, 166, 190, 0.829);
+    border-radius:8px ;
+    height: 150px;
+    width: 150px;
+    flex-grow: 1;
+    align-items: center;
+    display: flex;
+    justify-content: space-around;
+    
+}
+
